@@ -1,0 +1,260 @@
+/* Default CSS*/
+body {
+    font-size: 17px;
+}
+
+section {
+    padding: 50px 15px;
+}
+
+.headline-share h1 {
+    font-size: 40px;
+}
+
+.headline-share p {
+    padding: 0 20px;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Header ◈◈◈◈◈◈◈◈◈◈ */
+header .inner .gnb {
+    float: none;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: rgb(249, 251, 255);
+    top: 0;
+    right: 0;
+    right: -215px;
+    margin: 0;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, .3);
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+header .inner .gnb.active {
+    right: 0;
+}
+
+header .inner .gnb a {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 10px;
+}
+/* Trigger */
+#trigger {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 30px;
+}
+
+#trigger::before {
+    content: '\e91c';
+    font-family: 'xeicon';
+    cursor: pointer;
+}
+
+#trigger.active::before {
+    content: '\e9af';
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : welcome ◈◈◈◈◈◈◈◈◈◈ */
+.welcome .slideshow img {
+    height: 600px;
+}
+
+.welcome .welcome-heading {
+    top: 50%;
+    left: 50px;
+    width: 45%;
+}
+
+.welcome-heading h1 {
+    font-size: 30px;
+}
+
+.welcome-heading p {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : ceo-access ◈◈◈◈◈◈◈◈◈◈ */
+.access-inner .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.access-content .access-right {
+    width: 100%;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : banner ◈◈◈◈◈◈◈◈◈◈ */
+.banner-content > div {
+    float: none;
+    width: 100%;
+}
+
+.tabs .tab {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tab-btn label span {
+    /* border: 1px solid red; */
+    font-size: 16px;
+    padding: 0;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : feature ◈◈◈◈◈◈◈◈◈◈ */
+.feature-inner .feature-content {
+    margin: 100px 0;
+}
+
+.feature-content > div {
+    float: none;
+    width: 100%;
+}
+
+.feature-content .feature-about h2 {
+    font-size: 25px;
+}
+
+/* Change Order with Flex */
+.feature-content.flex-order {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-content.flex-order > div:first-child {
+    order: 1;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : vision ◈◈◈◈◈◈◈◈◈◈ */
+.vision-content > div {
+    height: 300px;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : review ◈◈◈◈◈◈◈◈◈◈ */
+.review {
+    padding: 80px 0;
+}
+
+.review-inner .review-content {
+    width: 100%;
+}
+
+.review-content h1.slogan {
+    font-size: 22px;
+}
+
+.review-slider div p {
+    padding: 20px 50px;
+}
+
+.review-slider .slick-arrow {
+    display: none !important;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : focus ◈◈◈◈◈◈◈◈◈◈ */
+.focus-content .focus-item {
+    padding: 0 40px;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : guide ◈◈◈◈◈◈◈◈◈◈ */
+.guide-content > div {
+    float: none;
+}
+
+.guide-content .guide-slider,
+.guide-content .guide-video {
+    width: 100%;
+    text-align: center;
+}
+
+.video-frame {
+    width: 100%;
+    height: 100%;
+}
+
+/* ◈◈◈◈◈◈◈◈◈◈ Section : news ◈◈◈◈◈◈◈◈◈◈ */
+/* .news-content .news-left {
+    width: 40%;
+}
+
+.news-content .news-right {
+    width: 60%;
+}
+
+.news-left .news-big {
+    width: 100%;
+    height: 460px;
+}
+
+.news-right .news-items {
+    height: 500px;
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+}
+
+.news-items .news-thum {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.news-thum .news-photo {
+    display: block;
+}
+
+.news-thum:nth-child(1),
+.news-thum:nth-child(3) {
+    margin-right: 0;
+}
+
+.news-thum:nth-child(1),
+.news-thum:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.news-photo img {
+    width: 100%;
+} */
+
+/* ◈◈◈◈◈◈◈◈◈◈ Footer ◈◈◈◈◈◈◈◈◈◈ */
+footer {
+    padding: 40px;
+}
+
+.footer-content > div {
+    float: none;
+    text-align: center;
+}
+
+.footer-content .footer-logo,
+.footer-content .copyright {
+    width: 100%;
+}
+
+.policy-sns .policy,
+.policy-sns .sns {
+    float: none;    
+}
+
+.policy-sns .policy {
+    margin: 15px 0;
+}
+
+/* Video Modal */
+.video-content {
+    width: 90%;
+}
+
+.video-content iframe {
+    width: 100%;
+    height: 300px;
+}
